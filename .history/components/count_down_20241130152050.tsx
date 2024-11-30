@@ -103,6 +103,7 @@ export default function Countdown() {
 
   // JSX return statement rendering the Countdown UI
   return (
+    
     // Container div for centering the content
     <div className="flex flex-col items-center justify-center h-screen bg-gray-100 dark:bg-gray-900">
       {/* Timer box container */}
@@ -156,7 +157,6 @@ export default function Countdown() {
           >
             Reset
           </Button>
-          
         </div>
       </div>
     </div>

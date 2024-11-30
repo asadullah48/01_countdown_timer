@@ -156,7 +156,14 @@ export default function Countdown() {
           >
             Reset
           </Button>
-          
+          <Image
+          src="/background-pattern.png"
+          alt="Background Pattern"
+          fill
+          style={{ objectFit: "cover" }}
+          objectFit="cover"
+          quality={100}
+        />
         </div>
       </div>
     </div>

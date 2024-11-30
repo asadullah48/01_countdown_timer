@@ -156,9 +156,9 @@ export default function Countdown() {
           >
             Reset
           </Button>
-          
         </div>
       </div>
+      <div
     </div>
   );
 }

@@ -103,6 +103,16 @@ export default function Countdown() {
 
   // JSX return statement rendering the Countdown UI
   return (
+    <div>
+      <Image
+          src="/background-pattern.png"
+          alt="Background Pattern"
+          fill
+          style={{ objectFit: "cover" }}
+          objectFit="cover"
+          quality={100}
+        />
+    </div>
     // Container div for centering the content
     <div className="flex flex-col items-center justify-center h-screen bg-gray-100 dark:bg-gray-900">
       {/* Timer box container */}
@@ -156,7 +166,6 @@ export default function Countdown() {
           >
             Reset
           </Button>
-          
         </div>
       </div>
     </div>
